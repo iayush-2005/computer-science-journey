@@ -1,0 +1,32 @@
+# --- Build & Output ---
+build/
+bin/
+obj/
+dist/
+*.out
+*.exe
+*.o
+*.log
+
+# --- IDE & Editors ---
+.idea/
+.vscode/
+*.swp
+*.suo
+.DS_Store
+
+# --- VS Code Config (Sensitive) ---
+launch.json
+settings.json
+tasks.json
+
+# --- Python Virtual Envs ---
+.venv/
+venv/
+env/
+__pycache__/
+
+# --- Secrets (Safety Net) ---
+.env
+*.key
+id_rsa

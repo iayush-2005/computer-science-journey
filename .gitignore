@@ -1,0 +1,25 @@
+# --- C++ Build Junk ---
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
+
+# --- Compiled Files ---
+*.out
+*.exe
+*.o
+*.a
+# Ignore binaries named 'main' inside subfolders
+**/main
+
+# --- IDE Settings ---
+.idea/
+.vscode/
+*.swp
+*.ds_store
+
+# --- Python ---
+__pycache__/
+.venv/
