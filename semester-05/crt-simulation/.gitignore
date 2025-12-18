@@ -1,0 +1,62 @@
+# IDE settings
+.idea/
+.vscode/
+.vs/
+
+# CMake build directories
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+build/
+out/
+bin/
+
+# Compiled object files and binaries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.pdb
+*.ilk
+*.exp
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+makefile
+build.ninja
+rules.ninja
+Testing/
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local configuration / environment
+*.env
+*.local
+.clangd/
+.clang-tidy
+.clang-format
+
+# Code::Blocks / legacy IDE artifacts
+*.cbp
+*.depend
+*.layout
